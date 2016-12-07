@@ -9,7 +9,6 @@ public class DayOne {
 	private int x = 0, y = 0;
 	private int degree = 2; // 3 right, 2 north, 1 left, 0 south
 	private ArrayList<Point> points;
-	private boolean foundPartTwo = false;
 	public DayOne(String[] array){
 		this.array = array;
 		points = new ArrayList<Point>();
