@@ -1,4 +1,4 @@
-package daytwo;
+package dayTwo;
 
 import java.awt.Point;
 

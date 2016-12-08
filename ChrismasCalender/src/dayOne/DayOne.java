@@ -1,4 +1,4 @@
-package dayone;
+package dayOne;
 
 import java.awt.Point;
 import java.util.ArrayList;
