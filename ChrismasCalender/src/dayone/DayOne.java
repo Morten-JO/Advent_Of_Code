@@ -57,13 +57,7 @@ public class DayOne {
 				break;
 			}
 		}
-		if(x < 0){
-			x = -x;
-		}
-		if(y < 0){
-			y = -y;
-		}
-		System.out.println("Distance: "+(x+y));
+		System.out.println("Distance: "+(Math.abs(x)+Math.abs(y)));
 		for(int i = 0; i < points.size(); i++){
 			for(int f = 0; f < points.size(); f++){
 				if(f != i){
@@ -77,7 +71,7 @@ public class DayOne {
 							if(y < 0){
 								y = -y;
 							}
-							System.out.println("Part two distance: "+(x+y));
+							System.out.println("Part two distance: "+(Math.abs(points.get(i).x)+Math.abs(points.get(i).y)));
 							return;
 						}
 					}
